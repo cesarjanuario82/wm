@@ -8,7 +8,7 @@ export const useServices = () => {
     const [isLoading, setIsLoading] = useState( false );
 
 
-   const urlApi = 'https://28ed-192-151-180-180.ngrok.io/sendMessage';
+   const urlApi = 'https://9a67-201-130-57-145.ngrok.io/sendMessage';
     //const urlApi = 'https://myfakeapi.com/api/users/';
 
 const enviarMensaje = (payload)  => {
