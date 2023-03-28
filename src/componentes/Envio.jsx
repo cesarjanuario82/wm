@@ -7,6 +7,8 @@ import Alert from '@mui/material/Alert';
 
 export const Envio = () => {
 
+ 
+
 const [data, setData] = useState({
     "plantilla_id":'renovaciones',
     "mdn":'',
@@ -42,6 +44,12 @@ const onSelectChange = ({ target }) => {
     })
 }
 
+const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+        enviarData()
+      }
+  };
+
 const enviarData = async () => {
     if( numero.trim().length < 10 || numero.trim().length > 10) {
         setWarning(true);
@@ -67,6 +75,8 @@ const enviarData = async () => {
         }
     }
 }
+
+
 
 
   return (
@@ -119,11 +129,11 @@ const enviarData = async () => {
             </Alert>
           }
           
-          <input type="tel"  value={numero} className="inputCel"  onChange={ onInputChange } maxLength="10" />
+          <input type="tel"  value={numero} className="inputCel"  onChange={ onInputChange } onKeyDown={handleKeyDown} maxLength="10" />
           
 
           <label>Tipo Envio:</label>
-          <select onChange={ onSelectChange }>
+          <select onChange={ onSelectChange } onKeyDown={handleKeyDown}>
             
               <option value="renovaciones">Renovaciones</option>
               <option value="recomienda_gana">Recomienda y Gana</option>        
@@ -132,7 +142,7 @@ const enviarData = async () => {
           
         </fieldset>
              
-        <button onClick={enviarData}>Enviar Mensaje</button>
+        <button onClick={enviarData} >Enviar Mensaje</button>
 
         
       
