@@ -8,6 +8,7 @@ import { Reportes } from './componentes/Reportes'
 
 function App() {
 
+  console.log('version:5');
 
 const [datos, estableceDatos] = useState('envio');
 
