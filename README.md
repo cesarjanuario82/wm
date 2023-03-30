@@ -11,4 +11,6 @@
 
 </ol>
 
-<p>Si quieres poner en producción el proyecto correr "yarn build" , eso genera una carpeta dist, lo que esta dentro de esa carpeta que debe ser un index.html, un favicon y la carpeta de assets lo pones en la ruta de producción.  !!importante entrar al archivo index.html de esta carpeta y ponerle un punto antes de las diagonales. Ejemplo: ./favicon.ico</p>
+<p>Si quieres poner en producción el proyecto correr "yarn build" , eso genera una carpeta dist, lo que esta dentro de esa carpeta que debe ser un index.html, un favicon y la carpeta de assets lo pones en la ruta de producción.  </p>
+
+<p>¡Importante! si vas a subir el proyecto a una carpeta que no sea el root -> entrar al archivo index.html de esta carpeta y ponerle un punto antes de las diagonales. Ejemplo: ./favicon.ico</p>
