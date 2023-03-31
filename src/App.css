@@ -121,9 +121,41 @@ label.light {
   width: 97%;
 }
 
+.inputCel2{
+  width: 50%;
+  margin-right: 15px;
+}
+
 .titulo{
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin: 10px;
+}
+
+.btnConsulta{
+  width: 30%;
+
+  padding: 13px 10px;
+}
+
+@media (max-width: 520px) {
+
+  .inputCel2{
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .btnConsulta{
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+ 
+}
+
+
+@media (max-width: 320px) {
+  
+ 
 }
