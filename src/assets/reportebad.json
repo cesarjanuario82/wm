@@ -1,0 +1,134 @@
+[
+    {
+        "statusMessage": "sent",
+        "fechaMessage": "2023-03-29T08:56:37.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=\",\"status\":\"sent\",\"timestamp\":\"1680101797\",\"recipient_id\":\"5215530302387\",\"conversation\":{\"id\":\"a1a6f344ffca0343dd6e8e11b4c92372\",\"expiration_timestamp\":\"1680113880\",\"origin\":{\"type\":\"user_initiated\"}},\"pricing\":{\"billable\":true,\"pricing_model\":\"CBP\",\"category\":\"user_initiated\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 191,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "delivered",
+        "fechaMessage": "2023-03-29T08:56:38.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=\",\"status\":\"delivered\",\"timestamp\":\"1680101798\",\"recipient_id\":\"5215530302387\",\"conversation\":{\"id\":\"a1a6f344ffca0343dd6e8e11b4c92372\",\"origin\":{\"type\":\"user_initiated\"}},\"pricing\":{\"billable\":true,\"pricing_model\":\"CBP\",\"category\":\"user_initiated\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 192,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "read",
+        "fechaMessage": "2023-03-29T08:56:58.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=\",\"status\":\"read\",\"timestamp\":\"1680101818\",\"recipient_id\":\"5215530302387\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 193,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkRBMzVCMzc3MzMxRDRGQThFNwA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "chatResponseOK",
+        "fechaMessage": "2023-03-29T08:57:04.000000",
+        "textoMessage": "{\"body\":\"Hola\"}",
+        "jsonWebhook":"{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"contacts\":[{\"profile\":{\"name\":\"Valent\ín ATT\"},\"wa_id\":\"5215530302387\"}],\"messages\":[{\"from\":\"5215530302387\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDFCNDI2QUM4MzdDQzJGQkQ2ODlFMTUyNjk5OTFGM0Y4AA==\",\"timestamp\":\"1680101824\",\"text\":{\"body\":\"Hola\"},\"type\":\"text\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 194,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDFCNDI2QUM4MzdDQzJGQkQ2ODlFMTUyNjk5OTFGM0Y4AA==",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "chatResponseOK",
+        "fechaMessage": "2023-03-29T09:06:20.000000",
+        "textoMessage": "{\"body\":\"Respuesta Iván\"}",
+        "jsonWebhook":"{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"contacts\":[{\"profile\":{\"name\":\"Valent\ín ATT\"},\"wa_id\":\"5215530302387\"}],\"messages\":[{\"from\":\"5215530302387\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDZENUZGOEE1NzBGMTVGQ0JCMjhDNzRCMzhEMzUyRjg2AA==\",\"timestamp\":\"1680102379\",\"text\":{\"body\":\"Respuesta Iv\án\"},\"type\":\"text\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 199,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDZENUZGOEE1NzBGMTVGQ0JCMjhDNzRCMzhEMzUyRjg2AA==",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "delivered",
+        "fechaMessage": "2023-03-28T13:29:10.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkE3QTM3MTU1NzAyMEMyOTFGNwA=\",\"status\":\"delivered\",\"timestamp\":\"1680031750\",\"recipient_id\":\"5215530302387\",\"conversation\":{\"id\":\"a1a6f344ffca0343dd6e8e11b4c92372\",\"origin\":{\"type\":\"user_initiated\"}},\"pricing\":{\"billable\":true,\"pricing_model\":\"CBP\",\"category\":\"user_initiated\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 123,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkE3QTM3MTU1NzAyMEMyOTFGNwA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "read",
+        "fechaMessage": "2023-03-28T13:34:25.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkE3QTM3MTU1NzAyMEMyOTFGNwA=\",\"status\":\"read\",\"timestamp\":\"1680032064\",\"recipient_id\":\"5215530302387\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 124,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkE3QTM3MTU1NzAyMEMyOTFGNwA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "read",
+        "fechaMessage": "2023-03-28T13:34:25.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=\",\"status\":\"read\",\"timestamp\":\"1680032064\",\"recipient_id\":\"5215530302387\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 125,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "https://www.att.com",
+        "fechaMessage": "2023-03-28T13:38:55.000000",
+        "textoMessage": "{\"payload\":\"https:\/\/www.att.com\",\"text\":\"https:\/\/www.att.com\"}",
+        "jsonWebhook":"{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"contacts\":[{\"profile\":{\"name\":\"Valent\ín ATT\"},\"wa_id\":\"5215530302387\"}],\"messages\":[{\"context\":{\"from\":\"15550614139\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=\"},\"from\":\"5215530302387\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDkyRDNDRkE3NjYyNDYyOTVBRUMyRUVEMTM0MjUzNDlEAA==\",\"timestamp\":\"1680032334\",\"type\":\"button\",\"button\":{\"payload\":\"https:\/\/www.att.com\",\"text\":\"https:\/\/www.att.com\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 126,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "Detener",
+        "fechaMessage": "2023-03-28T13:39:02.000000",
+        "textoMessage": "{\"payload\":\"Detener\",\"text\":\"Detener\"}",
+        "jsonWebhook":"{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"contacts\":[{\"profile\":{\"name\":\"Valent\ín ATT\"},\"wa_id\":\"5215530302387\"}],\"messages\":[{\"context\":{\"from\":\"15550614139\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=\"},\"from\":\"5215530302387\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDAxN0QyMUE2MEE5NzFBNTdFMTMwQkY0M0ZGMjE4QUE4AA==\",\"timestamp\":\"1680032341\",\"type\":\"button\",\"button\":{\"payload\":\"Detener\",\"text\":\"Detener\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 127,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEjkwMUY3MzRGNkEwNUU4MDVDOQA=",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "chatResponseOK",
+        "fechaMessage": "2023-03-28T13:39:22.000000",
+        "textoMessage": "{\"body\":\"Me interesa\"}",
+        "jsonWebhook":"{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"contacts\":[{\"profile\":{\"name\":\"Valent\ín ATT\"},\"wa_id\":\"5215530302387\"}],\"messages\":[{\"from\":\"5215530302387\",\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDlEMDlBQ0RBNzRBQUI4NDc0N0I4N0Q2OTU4NTI1NzVEAA==\",\"timestamp\":\"1680032362\",\"text\":{\"body\":\"Me interesa\"},\"type\":\"text\"}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 128,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABIYIDlEMDlBQ0RBNzRBQUI4NDc0N0I4N0Q2OTU4NTI1NzVEAA==",
+            "mdnMessage": "5215530302387"
+        }
+    },
+    {
+        "statusMessage": "sent",
+        "fechaMessage": "2023-03-28T13:40:01.000000",
+        "textoMessage": "{\"body\": \"Texto Plantilla\"}",
+        "jsonWebhook": "{\"object\":\"whatsapp_business_account\",\"entry\":[{\"id\":\"119441231086604\",\"changes\":[{\"value\":{\"messaging_product\":\"whatsapp\",\"metadata\":{\"display_phone_number\":\"15550614139\",\"phone_number_id\":\"112370725135077\"},\"statuses\":[{\"id\":\"wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkM2RjIyMkVDMkE3QTg3RTVCQwA=\",\"status\":\"sent\",\"timestamp\":\"1680032401\",\"recipient_id\":\"5215530302387\",\"conversation\":{\"id\":\"a1a6f344ffca0343dd6e8e11b4c92372\",\"expiration_timestamp\":\"1680113880\",\"origin\":{\"type\":\"user_initiated\"}},\"pricing\":{\"billable\":true,\"pricing_model\":\"CBP\",\"category\":\"user_initiated\"}}]},\"field\":\"messages\"}]}]}",
+        "id": {
+            "id": 129,
+            "idMessage": "wamid.HBgNNTIxNTUzMDMwMjM4NxUCABEYEkM2RjIyMkVDMkE3QTg3RTVCQwA=",
+            "mdnMessage": "5215530302387"
+        }
+    } 
+]

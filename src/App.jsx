@@ -8,7 +8,7 @@ import { Reportes } from './componentes/Reportes'
 
 function App() {
 
-  console.log('version:7');
+  console.log('version:8 - se agrega servicio de reportes y tabla');
 
 const [datos, estableceDatos] = useState('envio');
 

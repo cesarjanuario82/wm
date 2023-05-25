@@ -16,25 +16,32 @@ export const Reportes = () => {
 const [ respuesta, setRespuesta ] = useState(false);
 const [ error, setError ] = useState(false);
 const [ warning, setWarning ] = useState(false);
-const [ data, setData ] = useState({});
+const [ data, setData ] = useState([]);
 
   const {solicitarReporte, isLoading } = useServices();
 
-  
+
 
   const consultarDn = async() =>{
+
     if( numero.trim().length < 10 || numero.trim().length > 10) {
       setWarning(true);
   }else{
+  
         const resultadoReporte = await solicitarReporte(numero);
         if(resultadoReporte){
-
+         
           if(resultadoReporte.status){
               setError(true);
               console.log('Error en el envio');
           }else{
+             let rowsTemporal=[];
+              resultadoReporte.map((row)=>{
+                rowsTemporal = [...rowsTemporal, {id:row.id.id, estatus:row.statusMessage, texto:row.textoMessage, fecha:row.fechaMessage,DN:row.id.mdnMessage}]
+              });
               setRespuesta(true);
-              setData(resultadoReporte)
+
+              setData(rowsTemporal)
               console.log('Data recibida');
           }
           

@@ -10,9 +10,10 @@ export const Envio = () => {
  
 
 const [data, setData] = useState({
-"plantilla_id": 'renovaciones',
-"mdn": '',
-"phone_number_id": "112370725135077"
+    "plantilla_id":'renovaciones',
+    "mdn":'',
+    "phone_number_id":"112370725135077"
+    
 });
 
 
